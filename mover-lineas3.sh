@@ -32,3 +32,4 @@ done
 # Eliminar el archivo temporal
 rm "$temp_file"
 
+# En este ejemplo, se utiliza el rango especificado por el usuario para calcular el número total de líneas que se desean mover. Luego, el segundo bucle for se ajusta para iterar sobre este número de líneas en lugar de utilizar seq para generar una secuencia de números. Esto asegura que el script copie las líneas correctas en los archivos .txt requeridos.
