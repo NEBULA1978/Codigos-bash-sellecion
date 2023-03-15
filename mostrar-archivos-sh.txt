@@ -1,0 +1,14 @@
+Para ver sólo los archivos con extensión .sh en la carpeta actual en Bash, puedes usar el comando ls con la opción -1 para mostrar cada archivo en una línea separada, y la opción -F para agregar un carácter que indique el tipo de archivo:
+
+bash
+
+ls -1F *.sh
+
+El carácter que se agrega al final del nombre del archivo depende del tipo de archivo, por ejemplo:
+
+    / indica que el archivo es un directorio
+    * indica que el archivo es ejecutable
+    @ indica que el archivo tiene atributos extendidos
+    | indica que el archivo es un pipe
+
+En este caso, el carácter / no aparecerá al final del nombre del archivo ya que se trata de un archivo regular.
