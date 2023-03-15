@@ -48,3 +48,4 @@ done
 
 
 # En este ejemplo, se agrega un nuevo loop for que itera el número de archivos que el usuario quiere crear. Luego, dentro de ese loop, se utiliza el loop for original para insertar las líneas en el archivo Menu12.sh y se crea un archivo .txt con el número apropiado.
+
