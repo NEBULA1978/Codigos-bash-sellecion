@@ -3,7 +3,6 @@
 while :; do
     #Menu
     clear
-    clear
     echo -e "\e[1;32m"
     echo " MENU SCRIPT V.1 "
     echo ""
